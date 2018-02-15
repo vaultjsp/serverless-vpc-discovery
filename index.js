@@ -140,7 +140,7 @@ class VPCPlugin {
         Name: 'vpc-id',
         Values: [vpcId],
       }, {
-        Name: 'group-name',
+        Name: 'tag:Name',
         Values: securityGroupNames,
       }],
 
